@@ -1,9 +1,5 @@
 import { Outlet, useLocation, Navigate, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Profile from './pages/Profile';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import ResetPassword from './pages/ResetPassword';
+import { Home, Login, Profile, Register, ResetPassword } from "./pages";
 import { useSelector } from 'react-redux';
 
 function Layout() {

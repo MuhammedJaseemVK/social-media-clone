@@ -1,9 +1,7 @@
-import React from 'react'
+import Login from "./Login";
+import Home from "./Home";
+import Register from "./Register";
+import Profile from "./Profile";
+import ResetPassword from "./ResetPassword";
 
-const index = () => {
-  return (
-    <div>index</div>
-  )
-}
-
-export default index
+export { Login, Home, Register, Profile, ResetPassword };
